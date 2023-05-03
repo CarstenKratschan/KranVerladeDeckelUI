@@ -1,0 +1,31 @@
+
+
+body {
+    background: lightgray;
+    line-height: 1.5;
+    font-family: sans-serif;
+}
+
+main {
+    padding: 1rem;
+    max-width: 1100px;
+    margin: auto;
+}
+
+main > h1 {
+    text-align: center;
+    color: black;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+#app {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
+    grid-gap: 1.5rem;
+    justify-content: center;
+    align-items: center;
+}
+
+
